@@ -1,0 +1,48 @@
+[
+  {
+    "timestamp": "2026-06-16T12:46:46.189426",
+    "tool_name": "document_reader",
+    "input": {
+      "doc_id": "INV-001"
+    },
+    "output": "{'found': True, 'doc_type': 'invoice'}"
+  },
+  {
+    "timestamp": "2026-06-16T12:46:47.798953",
+    "tool_name": "calculator",
+    "input": {
+      "expression": "20000 + 2000"
+    },
+    "output": "{'result': '22000'}"
+  },
+  {
+    "timestamp": "2026-06-16T12:46:58.564545",
+    "tool_name": "document_search",
+    "input": {
+      "query": "contracts",
+      "search_type": "type",
+      "doc_type": "contract",
+      "min_amount": null,
+      "max_amount": null,
+      "comparison": null,
+      "amount": null
+    },
+    "output": "{'results_count': 1}"
+  },
+  {
+    "timestamp": "2026-06-16T12:47:00.496528",
+    "tool_name": "document_reader",
+    "input": {
+      "doc_id": "CON-001"
+    },
+    "output": "{'found': True, 'doc_type': 'contract'}"
+  },
+  {
+    "timestamp": "2026-06-16T12:47:32.049199",
+    "tool_name": "calculator",
+    "input": {
+      "expression": "3*2"
+    },
+    "output": "{'result': '6'}"
+  }
+]
